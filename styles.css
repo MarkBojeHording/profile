@@ -36,7 +36,7 @@ a {
 }
 
 a:hover {
-color: blue;
+color: rgb(10, 10, 73);
 }
 
 #container {
@@ -78,10 +78,11 @@ box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 .navigation > li {
   margin: 10px 0;
   display: inline;
+ font-size: 45px;
 }
 
 .btn-blue {
-background-color: navy;
+background-color: rgb(136, 136, 150);
 color: white;
 text-decoration: none;
 padding: 8px 16px;
