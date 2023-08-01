@@ -48,11 +48,9 @@ color: rgb(10, 10, 73);
 background: whitesmoke;
 padding: 30px;
 border-radius: 4px;
-/* box-shadow: 0px 0px 30px rgba(0,0,0,.5); */
 text-align: center;
 margin: 20px 0px;
 box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-
 }
 
 .card-second {
@@ -62,7 +60,12 @@ box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-  color: rgb(19, 14, 14);
+}
+
+.card-second > h1 {
+  background-color:rgb(136, 136, 150);
+  border-radius: 50px;
+  color: white;
 }
 
 .image-circle {
